@@ -110,7 +110,7 @@ function checkEmptyList() {
     if (tasks.length === 0) {
         const emptyListHTML = `
                                     <li id="emptyList" class="list-group-item empty-list">
-                                        <img src="./img/empty.jpg" alt="Empty" class="mt-3">
+                                        <img src="./../img/empty.jpg" alt="Empty" class="mt-3">
                                         
                                     </li>`;
         tasksList.insertAdjacentHTML('afterbegin', emptyListHTML);
